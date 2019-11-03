@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProductDescriptionComponent implements OnInit {
 
+  albumInfo;
+  
   constructor(private _productService: ProductService) { }
 
   ngOnInit() {
